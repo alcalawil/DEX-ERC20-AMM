@@ -1,0 +1,28 @@
+{
+  "name": "geers-smart-contract",
+  "version": "1.0.0",
+  "description": "Smart contracts for Frontchain talk for geers",
+  "main": "truffle-config.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ezequielsettle/geers-smart-contract.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ezequielsettle/geers-smart-contract/issues"
+  },
+  "homepage": "https://github.com/ezequielsettle/geers-smart-contract#readme",
+  "dependencies": {
+    "@openzeppelin/contracts": "^4.7.3",
+    "@truffle/hdwallet-provider": "^2.0.14",
+    "dotenv": "^16.0.2",
+    "ethers": "^5.7.1"
+  }
+}
