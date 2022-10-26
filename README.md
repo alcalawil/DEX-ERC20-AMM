@@ -24,3 +24,32 @@ It is structured in two main folders: ************************UI****************
 The **UI folder** has a frontend project vite + tailwind and the web3 library is implemented twice: one implementation using ******************ether.js******************  and the other one using **web3.js**. 
 
 On the other side the ********************************Contracts folder******************************** contain a truffle project with the **Token.sol** and **Dex.sol** contracts.
+
+## ******************How to run******************
+
+Make sure you have truffle installed.
+
+You will need a Infura key if you want to  order to deploy the contracts, but if you want to run a local blockchain (e.g ganache) you only have to make sure your the port it is running is the same as in the truffle-config.js (e.g port: 7545). 
+
+**************************Deploy the Contracts************************** 
+
+```bash
+npm install
+
+truflle compile
+
+truflle deploy --network development
+```
+
+After deploying the contracts your deployer address will have a ton of ERC20 tokens that were minted at deploying stage.
+
+****************************************Run the frontend DApp****************************************
+
+go to the UI folder and follow the README instructions.
+
+************NOTE:************ You have to put the deployed addresses in the following file:
+`/ui/packages/dapp-final/src/config/ping-contract.js`
+
+## ****************************Acknowlegments****************************
+
+This project was built as Academic tool while I was working for Settle Network. The frontend code was entirely wrote by Jose Jimenez and Charly Iglesias. If you want to knwo what they are building go and check [the ping app](https://www.holaping.com/)
