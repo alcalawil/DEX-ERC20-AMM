@@ -2,6 +2,9 @@
 
 Decentralized Exchange to Swap ERC20 tokens for ETH using Automated Market Makers. Deposit / Withdraw Liquidity. 
 
+![---](https://raw.githubusercontent.com/alcalawil/DEX-ERC20-AMM/master/ui/Screen%20Shot%202022-10-25%20at%2019.43.44.png "x")
+[]()
+
 
 This is a PoC decentralized exchange (like uniswap) that serves to exchange ERC20 tokes for eth. Currently version is working with a single token (injected in the constructor at deploying time). This project have the purpose of learning how about how DApps work. By building this project I learned:
 
