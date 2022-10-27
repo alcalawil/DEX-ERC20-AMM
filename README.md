@@ -50,6 +50,6 @@ go to the UI folder and follow the README instructions.
 ************NOTE:************ You have to put the deployed addresses in the following file:
 `/ui/packages/dapp-final/src/config/ping-contract.js`
 
-## ****************************Acknowlegments****************************
+## ****************************Acknowledgments****************************
 
-This project was built as Academic tool while I was working for Settle Network. The frontend code was entirely wrote by Jose Jimenez and Charly Iglesias. If you want to knwo what they are building go and check [the ping app](https://www.holaping.com/)
+This project was built as Academic tool while I was working for Settle Network. The frontend code was entirely wrote by Jose Jimenez and Charly Iglesias. If you want to know what they are building go and check [the ping app](https://www.holaping.com/)
